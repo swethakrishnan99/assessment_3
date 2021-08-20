@@ -1,0 +1,120 @@
+body {
+  background-color: grey;
+}
+label {
+  font-size: x-small;
+}
+.grey {
+  border: 1px solid rgb(194, 190, 190);
+}
+.white {
+  border: 1px solid white;
+}
+.welcome {
+  width: 150px;
+  padding: 0px 80px 0px 80px;
+  font-style: oblique;
+  line-height: 35px;
+  margin: auto;
+}
+.box {
+  border: 5px solid red;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(70, 13, 36);
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  text-shadow: 1px 1px blueviolet;
+  box-shadow: 5px 5px 5px rgb(84, 22, 112);
+}
+.green_box {
+  border: 10px solid green;
+}
+.address {
+  width: 200px;
+  line-height: 35px;
+  float: left;
+}
+img {
+  width: 150px;
+}
+.image {
+  width: 200px;
+  height: 110px;
+  padding: 40px 0 40px 0;
+}
+.advertisement {
+  width: 200px;
+  padding: 20px 0px 20px 0px;
+  margin: 40px 0px 40px 0px;
+  text-align: left;
+}
+.rateing {
+  margin: 60px 0px 20px 0px;
+  width: 200px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+#items {
+  border: 10px solid rgb(83, 25, 95);
+  background-color: rgb(7, 92, 7);
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-row-gap: 5px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+.fruits,
+.vegetables,
+.others {
+  background-color: khaki;
+  border: 3px solid grey;
+}
+.fandv {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+}
+.footer {
+  border: 5px solid tomato;
+  background-color: yellowgreen;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  width: fit-content;
+  text-align: center;
+  padding: 30px 30px 5px 30px;
+  margin-top: 20px;
+  font-style: oblique;
+  font-size: larger;
+  color: brown;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  right: 40%;
+}
+a {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  text-shadow: none;
+  font-weight: lighter;
+  border-radius: 10px;
+}
+pre {
+  font-style: italic;
+}
+h3 {
+  font-style: oblique;
+}
